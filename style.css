@@ -1,0 +1,206 @@
+/* Reset básico */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+/* Container principal */
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Logo */
+.logo{
+    margin-bottom: 50px;
+}
+
+.logo img{
+    width: 120px;
+    height: auto;
+}
+
+/* Formulário */
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+/* Inputs */
+.login-form input{
+    width: 420px;
+    height: 52px;
+
+    padding: 0 15px;
+
+    border: 1px solid #d4d4d4;
+    border-radius: 6px;
+
+    background-color: #fff;
+    outline: none;
+
+    font-size: 14px;
+}
+
+/* Botão */
+.login-form button{
+    width: 200px;
+    height: 40px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #1f4c97;
+    color: white;
+
+    font-size: 14px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.login-form button:hover{
+    background-color: #163a73;
+}
+
+/* Link */
+.forgot-password{
+    color: #444;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.forgot-password:hover{
+    color: #1f4c97;
+}
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+/* Container */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Logo */
+.logo{
+    margin-bottom: 40px;
+}
+
+.logo img{
+    width: 120px;
+    height: auto;
+}
+
+/* Formulário */
+.form-recuperacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+/* Campo Email */
+.form-recuperacao input{
+    width: 420px;
+    height: 50px;
+
+    padding: 0 15px;
+
+    border: 1px solid #d4d4d4;
+    border-radius: 6px;
+
+    background-color: #fff;
+
+    font-size: 13px;
+    text-transform: uppercase;
+
+    outline: none;
+}
+
+.form-recuperacao input::placeholder{
+    color: #b7b7b7;
+}
+
+/* Botão */
+.form-recuperacao button{
+    width: 420px;
+    height: 32px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #1f4c97;
+    color: #fff;
+
+    font-size: 14px;
+    cursor: pointer;
+
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+
+    transition: 0.3s;
+}
+
+.form-recuperacao button:hover{
+    background-color: #163a73;
+}
+
+.register-link{
+    margin-top: 15px;
+    color: #444;
+    text-decoration: underline;
+    font-size: 14px;
+    text-align: center;
+}
+
+.register-link:hover{
+    color: #1f4c97;
+}
+
+/* Link */
+.voltar-login{
+    margin-top: 40px;
+
+    color: #333;
+    font-size: 14px;
+
+    text-decoration: underline;
+}
+
+.voltar-login:hover{
+    color: #1f4c97;
+}
