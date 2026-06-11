@@ -24,7 +24,7 @@ form.addEventListener("submit", function(event){
     mensagem.style.color = "green";
 
     setTimeout(() => {
-        window.location.href = "login.html";
+        window.location.href = "index-login.html";
     }, 2000);
 
 });
